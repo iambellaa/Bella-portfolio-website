@@ -207,10 +207,12 @@ img{
     position: absolute;
     right: 10px;
     bottom: 35px;
+    height: 400px;
     width: 400px;
-    opacity: 20;
+    opacity: 50;
     align-content: flex-end;
     display: block;
+    align: right;
 }
 
 /* ===== ABOUT =====*/
@@ -491,20 +493,6 @@ img{
         right: 24%;
     }
 }
-@media screen and (min-width: 1024px){
-    .bd-grid{
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
 
-/* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
-    .home__container {
-        height: 640px;
-    }
-    .home__img {
-        width: 500px;
-        right: 24%;
-    }
-}
+
+font
