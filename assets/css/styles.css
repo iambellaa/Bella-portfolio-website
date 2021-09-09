@@ -205,10 +205,12 @@ img{
 }
 .home__img{
     position: absolute;
-    right: 0;
+    right: 10px;
     bottom: 35px;
     width: 400px;
-    opacity: 30;
+    opacity: 20;
+    align-content: flex-end;
+    display: block;
 }
 
 /* ===== ABOUT =====*/
