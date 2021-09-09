@@ -222,14 +222,14 @@ img{
     display: flex;
     justify-content: center;
     padding: 3rem;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     background-color: var(--first-color);
     border-radius: 50%;
     overflow: hidden;
 }
 .about__img img{
-    width: 250px;
+    width: 145px;
 }
 .about__profession{
     font-weight: bold;
@@ -442,11 +442,11 @@ img{
         padding: 4rem 0;
     }
     .about__img{
-        width: 300px;
-        height: 300px;
+        width: 260px;
+        height: 260px;
     }
     .about__img img{
-        width: 165px;
+        width: 155px;
     }
 
     .skills__container{
