@@ -205,14 +205,11 @@ img{
 }
 .home__img{
     position: absolute;
-    right: 10px;
     bottom: 35px;
-    height: 400px;
+    right: 0px;
     width: 400px;
     opacity: 50;
-    align-content: flex-end;
-    display: block;
-    align: right;
+    
 }
 
 /* ===== ABOUT =====*/
@@ -434,8 +431,8 @@ img{
         row-gap: 0;
     }
     .home__img{
-        width: 524px;
-        right: 10%;
+        width: 500px;
+        right: 15%;
     }
 
     .about__container{
@@ -489,8 +486,8 @@ img{
         height: 640px;
     }
     .home__img {
-        width: 500px;
-        right: 24%;
+        width: 524px;
+        right: 20%;
     }
 }
 
