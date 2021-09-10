@@ -135,9 +135,9 @@ img{
         width: 80%;
         height: 100%;
         padding: 1rem;
-        background-color: rgba(252, 208, 229, 0.3);
+        background-color: rgba(252, 208, 229, 0.8);
         transition: .5s;
-        backdrop-filter: blur(12px);
+        backdrop-filter: blur(3px);
     }
 }
 .nav__item{
@@ -214,8 +214,7 @@ img{
     bottom: 35px;
     right: 0px;
     width: 400px;
-    opacity: 50;
-    
+    opacity: 30;
 }
 
 /* ===== ABOUT =====*/
@@ -390,7 +389,8 @@ img{
 /* For small devices */
 @media screen and (max-width: 320px) {
   .home__img {
-    width: 230px;
+    width: 280px;
+    right: 10%;
   }
 }
 @media screen and (min-width: 768px){
