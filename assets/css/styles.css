@@ -152,6 +152,10 @@ img{
 }
 .nav__logo{
     color: var(--white-color);
+    position:absolute;
+    display: inline-block;
+    top: 17px;
+    width: 30px;
 }
 .nav__toggle{
     color: var(--white-color);
@@ -386,6 +390,9 @@ img{
   .home__img {
     width: 230px;
   }
+  .nav__logo {
+    top: 7px;
+  }
 }
 @media screen and (min-width: 768px){
     body{
@@ -420,6 +427,9 @@ img{
     }
     .nav__link:hover{
         color: var(--white-color);
+    }
+    .nav__logo {
+        top: 17px;
     }
     .active::after{
         background-color: var(--white-color);
@@ -478,16 +488,8 @@ img{
         margin-left: auto;
         margin-right: auto;
     }
-}
-
-/* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
-    .home__container {
-        height: 640px;
-    }
-    .home__img {
-        width: 524px;
-        right: 20%;
+    .nav__logo {
+        top: 17px;
     }
 }
 
@@ -498,26 +500,9 @@ img{
     }
     .home__img {
         width: 524px;
-        right: 20%;
+        right: 17%;
     }
-}
-/* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
-    .home__container {
-        height: 640px;
-    }
-    .home__img {
-        width: 524px;
-        right: 20%;
-    }
-}
-/* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
-    .home__container {
-        height: 640px;
-    }
-    .home__img {
-        width: 524px;
-        right: 20%;
+    .nav__logo {
+        top: 17px;
     }
 }
