@@ -427,6 +427,15 @@ img{
     .nav__link:hover{
         color: var(--white-color);
     }
+    .nav__logo{
+        color: var(--white-color);
+        display: inline-block;
+        vertical-align: top;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
     .active::after{
         background-color: var(--white-color);
     }
@@ -484,6 +493,15 @@ img{
         margin-left: auto;
         margin-right: auto;
     }
+    .nav__logo{
+        color: var(--white-color);
+        display: inline-block;
+        vertical-align: top;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
 }
 
 /* For tall screens on mobiles y desktop*/
@@ -494,5 +512,14 @@ img{
     .home__img {
         width: 524px;
         right: 17%;
+    }
+    .nav__logo{
+        color: var(--white-color);
+        display: inline-block;
+        vertical-align: top;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+        margin-top: 5px;
     }
 }
