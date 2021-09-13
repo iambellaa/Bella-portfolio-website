@@ -14,7 +14,7 @@
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo"><img src="assets/img/b.png"></a>
+                    <a href="#" class="nav__logo">Bella Li</a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
@@ -162,13 +162,13 @@
                         <span class="contact__text">Beeston, Nottingham, UK</span>
                     </div>
 
-                    <form action="" class="contact__form">
+                    <form action="form-handler.php" class="contact__form">
                         <div class="contact__inputs">
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="mail" placeholder="Email" class="contact__input">
+                            <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                            <input type="mail" name="email" placeholder="Email" class="contact__input" required>
                         </div>
 
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input" required></textarea>
 
                         <input type="submit" value="Enter" class="contact__button">
                     </form>
